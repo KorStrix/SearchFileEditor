@@ -1,8 +1,7 @@
 {
   "profiles": {
     "SearchFileEditor": {
-      "commandName": "Project",
-      "commandLineArgs": "-example -run SFEExample.json"
+      "commandName": "Project"
     }
   }
 }

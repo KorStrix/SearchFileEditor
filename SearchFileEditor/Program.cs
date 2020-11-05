@@ -4,9 +4,7 @@ using System.IO;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using SFE.Example;
-using YamlDotNet.Core;
 using YamlDotNet.RepresentationModel;
-using YamlDotNet.Serialization;
 
 namespace SFE
 {
@@ -23,7 +21,7 @@ namespace SFE
             if (args.Length == 0)
             {
                 Console.WriteLine("this Program require commandline\n"
-                + "-example         is generate ExampleFolder & ExampleConfigFile in current directory"
+                + "-example         is generate ExampleFolder & ExampleConfigFile in current directory\n"
                 + "-run (SFE config file relative path) : is Search File Editing Start");
                 return;
             }
